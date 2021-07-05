@@ -20,7 +20,7 @@ h2 {
   font-size: 2em;
 }
 p {
-  color: gray;
+  color: #666666;
 }
 .slogan {
   width: 55%;
@@ -38,4 +38,23 @@ p {
   background-image: linear-gradient(315deg, #5047e4 0%, #7a74e0 50%);
   border-radius: 20px;
   color: #fff;
+}
+#about {
+  display: flex;
+  background-image: url(assets/shapes/7.png);
+}
+.aboutMe {
+  width: 80%;
+  padding: 100px 10px;
+}
+.gray {
+  color: #4d4d4d;
+  font-size: 40px;
+}
+.discribe {
+  margin-bottom: 10%;
+}
+#contactMe {
+  background-color: #fd5231;
+  background-image: linear-gradient(315deg, #fd5231 0%, #fb954b 50%);
 }
