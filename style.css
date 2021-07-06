@@ -156,6 +156,7 @@ form input {
   margin-left: 1%;
   border-radius: 20px;
   font-size: 18px;
+  background: #ffedf9;
 }
 form label {
   font-weight: bold;
