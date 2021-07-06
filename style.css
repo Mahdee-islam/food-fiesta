@@ -38,13 +38,13 @@ p {
   text-decoration: none;
   padding: 10px 40px;
   background-color: #045de9;
-  background-image: linear-gradient(315deg, #5047e4 0%, #7a74e0 50%);
+  background-image: linear-gradient(180deg, #5047e4 0%, #7a74e0 50%);
   border-radius: 20px;
   color: #fff;
 }
 #about {
   display: flex;
-  background-image: url(assets/shapes/7.png);
+  background-image: url(assets/shapes/Frame\ 56.jpg);
 }
 .aboutMe {
   width: 80%;
@@ -58,8 +58,8 @@ p {
   margin-bottom: 10%;
 }
 #contactMe {
-  background-color: #fd5231;
-  background-image: linear-gradient(315deg, #fd5231 0%, #fb954b 50%);
+  bbackground-color: #045de9;
+  background-image: linear-gradient(180deg, #5047e4 0%, #7a74e0 50%);
 }
 #recipie {
   display: flex;
@@ -124,13 +124,11 @@ p {
 #natural a {
   margin-left: 15%;
 }
-
 #services {
   background-image: url(assets/shapes/Frame\ 59.jpg);
   padding-top: 3%;
   padding-bottom: 3%;
 }
-
 footer {
   background-color: #000000;
   text-align: center;
