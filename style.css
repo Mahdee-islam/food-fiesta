@@ -4,6 +4,9 @@ body {
 section {
   margin-bottom: 100px;
 }
+h1 {
+  font-size: 40px;
+}
 #top {
   display: flex;
   margin-top: 8%;
@@ -26,8 +29,8 @@ p {
   width: 55%;
   margin-bottom: 10%;
 }
-.colored {
-  color: #5047e4;
+.fiesta {
+  color: #ff4e00;
 }
 .button {
   text-transform: uppercase;
@@ -114,12 +117,30 @@ p {
   width: 100%;
   box-shadow: 10px 10px 30px gray;
   border-radius: 30px;
-  padding: 10px 40px;
+  padding: 0px 30px;
   margin-left: 5%;
   margin-right: 5%;
 }
+#natural a {
+  margin-left: 15%;
+}
+
 #services {
   background-image: url(assets/shapes/Frame\ 59.jpg);
   padding-top: 3%;
   padding-bottom: 3%;
+}
+
+footer {
+  background-color: #000000;
+  text-align: center;
+  padding-bottom: 50px;
+  color: #4d4d4d;
+}
+footer a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+footer p {
+  color: #fff;
 }
