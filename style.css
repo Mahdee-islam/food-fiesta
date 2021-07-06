@@ -1,20 +1,25 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 section {
   margin-bottom: 100px;
 }
+
 h1 {
   font-size: 40px;
 }
+
 #top {
   display: flex;
   margin-top: 8%;
 }
+
 .half-width {
   width: 50%;
   padding-left: 30px;
 }
+
 .half-width img {
   width: 80%;
 }
@@ -22,16 +27,20 @@ h1 {
 h2 {
   font-size: 2em;
 }
+
 p {
   color: #666666;
 }
+
 .slogan {
   width: 55%;
   margin-bottom: 10%;
 }
+
 .purple {
   color: #5047e4;
 }
+
 .button {
   text-transform: uppercase;
   font-weight: bold;
@@ -42,28 +51,35 @@ p {
   border-radius: 20px;
   color: #fff;
 }
+
 #about {
   display: flex;
   background-image: url(assets/shapes/Frame\ 56.jpg);
 }
+
 .aboutMe {
   width: 80%;
   padding: 100px 10px;
 }
+
 .gray {
   color: #4d4d4d;
   font-size: 40px;
 }
+
 .discribe {
   margin-bottom: 10%;
 }
+
 #contactMe {
   background-color: #045de9;
   background-image: linear-gradient(180deg, #5047e4 0%, #7a74e0 50%);
 }
+
 #recipie {
   display: flex;
 }
+
 #recipie img {
   width: 100%;
   height: 40%;
@@ -71,6 +87,7 @@ p {
   padding-bottom: 10px;
   border-radius: 30px;
 }
+
 .food {
   width: 100%;
   box-shadow: 10px 10px 40px gray;
@@ -79,11 +96,13 @@ p {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .title {
   text-align: center;
   padding-right: 20%;
   padding-left: 20%;
 }
+
 #subscription {
   display: flex;
   text-align: center;
@@ -91,21 +110,27 @@ p {
   margin-right: 5%;
   margin-left: 5%;
 }
+
 #subscription h1 {
   font-size: 3rem;
 }
+
 .youtube {
   width: 70%;
 }
+
 .instagram {
   width: 70%;
 }
+
 .dribbble {
   width: 70%;
 }
+
 #service {
   display: flex;
 }
+
 #service img {
   width: 100%;
   height: 40%;
@@ -113,6 +138,7 @@ p {
   padding-bottom: 10px;
   border-radius: 30px;
 }
+
 .natural {
   width: 100%;
   box-shadow: 10px 10px 30px gray;
@@ -121,27 +147,33 @@ p {
   margin-left: 5%;
   margin-right: 5%;
 }
+
 .natural a {
   margin-left: 15%;
 }
+
 #services {
   background-image: url(assets/shapes/Frame\ 59.jpg);
   padding-top: 3%;
   padding-bottom: 3%;
 }
+
 footer {
   background-color: #000000;
   text-align: center;
   padding-bottom: 50px;
   color: #4d4d4d;
 }
+
 footer a {
   text-decoration: none;
   color: #4d4d4d;
 }
+
 footer p {
   color: #fff;
 }
+
 #newsletter {
   background-color: #ffffff;
   background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%);
@@ -150,6 +182,7 @@ footer p {
   padding-bottom: 10%;
   padding-top: 5%;
 }
+
 form input {
   padding: 10px 40px;
   margin-right: 5%;
@@ -158,16 +191,20 @@ form input {
   font-size: 18px;
   background: #ffedf9;
 }
+
 form label {
   font-weight: bold;
   font-size: 25px;
 }
+
 .message {
   font-size: 20px;
 }
+
 .copy {
   font-size: 14px;
 }
+
 .author {
   color: orangered;
 }
