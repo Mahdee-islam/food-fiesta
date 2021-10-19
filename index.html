@@ -36,27 +36,26 @@
         >
       </div>
       <div class="half-width">
-        <img src="assets/person/person_1.png" alt="" />
+        <img src="assets/person/undraw_Eating_together_re_ux62.png" alt="" />
       </div>
     </section>
     <section id="about">
       <div class="half-width">
-        <img src="assets/person/person_2.png" alt="" />
+        <img
+          src="assets/person/undraw_male_avatar_323b-removebg-preview.png"
+          alt=""
+        />
       </div>
       <div class="half-width">
         <div class="aboutMe">
-          <h2><span class="gray">About Me</span></h2>
+          <h2><span class="gray">About Us</span></h2>
           <p class="discribe">
             I've always enjoyed meeting new people and it comes naturally to me
             to maintain a lot of relationships. I'm your typical extrovert,
             which has really helped me in my career. My natural networking
             abilities have enabled me to excel in sales roles such as this one.
           </p>
-          <a
-            target="_blank"
-            href="https://www.facebook.com/mahdeeislm"
-            class="button"
-            id="contactMe"
+          <a target="_blank" href="order.html" class="button" id="contactMe"
             >Contact Me</a
           >
         </div>
@@ -65,7 +64,7 @@
 
     <section>
       <div class="title">
-        <h1>My Recipie</h1>
+        <h1>Our Recipies</h1>
         <p>
           A recipe communicates the ingredients and procedures the chef uses to
           make his creations. It is this tool which allows the chef to train and
@@ -142,17 +141,22 @@
     </section>
     <section id="newsletter">
       <div class="form">
-        <h2>Signup For Our Newsletter</h2>
-        <p class="message">
-          If you want to buy something or update with our services then fillup
-          the below log in form and connect with us.
-        </p>
+        <h2>Please fillup the form for oder.</h2>
+        <p class="message">Our main motto is customers satisfaction.</p>
         <form action="#">
-          <label for="name">Name</label>
-          <input type="text" id="name" placeholder="Enter your name" />
-          <label for="email">Email</label>
-          <input type="text" id="email" placeholder="Enter your email" />
-          <input class="button" type="submit" value="Log in" />
+          <div class="fillup">
+            <label for="name">Customer's name</label>
+            <input type="text" id="fName" placeholder="Enter your name" />
+            <label for="name">Customer's phone</label>
+            <input type="text" id="phone" placeholder="Enter your name" />
+            <label for="email">Customer's Email</label>
+            <input type="text" id="email" placeholder="Enter your email" />
+            <label>Food Description</label>
+            <textarea cols="5" rows="5"></textarea>
+          </div>
+          <button onclick="validateForm()" class="btn button" value="Log in">
+            Submit
+          </button>
         </form>
       </div>
     </section>
@@ -179,5 +183,6 @@
         &copy; <span class="author">Author : </span> Md. Mahdi Islam,2021
       </p>
     </footer>
+    <script src="app.js"></script>
   </body>
 </html>
