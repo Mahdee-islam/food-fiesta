@@ -17,6 +17,15 @@
   </head>
 
   <body>
+    <div>
+      <nav>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#recipies">Recipies</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#newsletter">Contact</a></li>
+      </nav>
+    </div>
     <section id="top">
       <div class="half-width">
         <div class="head">
@@ -50,10 +59,10 @@
         <div class="aboutMe">
           <h2><span class="gray">About Us</span></h2>
           <p class="discribe">
-            I've always enjoyed meeting new people and it comes naturally to me
-            to maintain a lot of relationships. I'm your typical extrovert,
-            which has really helped me in my career. My natural networking
-            abilities have enabled me to excel in sales roles such as this one.
+            We've always enjoyed meeting new people and it comes naturally to us
+            to maintain a lot of relationships. We're your typical extrovert,
+            which has really helped us in our career. Our natural networking
+            abilities have enabled us to excel in sales roles such as this one.
           </p>
           <a target="_blank" href="order.html" class="button" id="contactMe"
             >Contact Me</a
@@ -62,7 +71,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="recipies">
       <div class="title">
         <h1>Our Recipies</h1>
         <p>
@@ -142,23 +151,27 @@
     <section id="newsletter">
       <div class="form">
         <h2>Please fillup the form for oder.</h2>
-        <p class="message">Our main motto is customers satisfaction.</p>
-        <form action="#">
+        <p class="message">Customers satisfaction is our main motto.</p>
+        <form id="input-form">
           <div class="fillup">
             <label for="name">Customer's name</label>
             <input type="text" id="fName" placeholder="Enter your name" />
             <label for="name">Customer's phone</label>
-            <input type="text" id="phone" placeholder="Enter your name" />
+            <input
+              type="text"
+              id="phone"
+              placeholder="Enter your phone number"
+            />
             <label for="email">Customer's Email</label>
             <input type="text" id="email" placeholder="Enter your email" />
             <label>Description</label>
             <textarea
               cols="5"
               rows="5"
-              placeholder="Type food & location here..."
+              placeholder="Type food & location here..." required
             ></textarea>
           </div>
-          <button onclick="validateForm()" class="btn button" value="Log in">
+          <button class="btn button" value="Log in" type="submit">
             Submit
           </button>
         </form>
@@ -174,7 +187,7 @@
         <p>Instagram Followers</p>
       </div>
       <div class="dribbble">
-        <h1>100k</h1>
+        <h1>100K</h1>
         <p>Dribbble Shots Like</p>
       </div>
     </section>
